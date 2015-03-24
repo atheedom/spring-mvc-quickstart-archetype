@@ -11,7 +11,14 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
+    <dependencies>
 
+        <dependency>
+            <groupId>dom4j</groupId>
+            <artifactId>dom4j</artifactId>
+            <version>1.6.1</version>
+        </dependency>
+    </dependencies>
 	<build>
 	<extensions>
 	  <extension>
@@ -20,8 +27,10 @@
 		<version>2.2</version>
 	  </extension>
 	</extensions>
-	
-	<pluginManagement>
+
+
+
+        <pluginManagement>
 	  <plugins>
 		<plugin>
 		  <groupId>org.apache.maven.plugins</groupId>
